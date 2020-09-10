@@ -1,0 +1,349 @@
+body{
+    margin: 0;
+    padding: 0;
+   /* font-family: 'Arimo', sans-serif; */
+}
+
+hr{
+    color: black;
+    width: 50%;
+}
+
+
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 100px;
+    /* background: #edc327; */
+    width: 100%;
+    box-sizing: border-box;
+    height: 10vh;
+    
+}
+
+
+
+header .logo{
+    color: #391b09;
+    height:50px ;
+    line-height: 50px;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+}
+
+.logo-header{
+    width: 150px;
+    margin-top: -13px;
+}
+
+header nav{
+    float: right;
+}
+header nav ul{
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+
+header nav ul li {
+   list-style: none;
+   margin-top: 40px;
+
+}
+header nav ul li a{
+   height: 50px;
+   line-height: 50px;
+   font-size: 20px;
+   font-family: 'Arimo', sans-serif;
+   font-weight: bold;
+   padding: 0 20px;
+   color: #391b09;
+   text-decoration: none;
+   display: block;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active{
+    color: #fff;
+    background: #391b09;
+    border-radius: 9px;
+}
+
+.menu-toggle{
+    color: rgb(10, 10, 10);
+    float: right;
+    line-height: 50px;
+    font-size:24px ;
+    cursor: pointer;
+    display: none;
+}
+
+/* inicio */
+#inicio{
+    margin-top: 10%;
+    height: 30vh;
+}
+
+#inicio{
+    background-image: url('img/Capturar-1.PNG');
+    padding: 400px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+.logo-sobre{
+    width: 100%;
+}
+
+.box-center{
+    margin-top: 90px;
+    text-align: center;
+}
+
+#inicio h1{
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+font-size: 50px;
+font-weight: bold;
+margin-top: -191px;
+}
+
+.box-center .btn-1{
+    border: none;
+    border: 1px solid #edc327;
+    border-radius: 8px;
+    background:#edc327 ;
+    font-size: 18px;
+    font-weight: bold;
+    color: #391b09;
+    padding: 12px 30px;
+}
+
+.btn-1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn-1 a:hover{
+    color: white;
+}
+
+.box-center .btn-1:hover{
+    background:#391b09 ;
+    color: #fff;
+}
+/* sobre */
+#sobre{
+    margin-top: 10px;
+    height: 90vh;
+    background: rgb(223, 165, 6);
+}
+#sobre{
+    background-image: url('img/3.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+#sobre h1{
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+#sobre p{
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+#sobre .btn-2{
+    border: none;
+    border: 1px solid #391b09;
+    border-radius: 8px;
+    background:#391b09 ;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    padding: 12px 30px;
+}
+
+.btn-2 a{
+    text-decoration: none;
+    color: white;
+}
+#sobre .btn-2:hover{
+    background:#000 ;
+    color: white;
+}
+/* contato */
+
+#contato .cards {
+       margin-left: 13%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+  }
+
+  #contato .card-white {
+        /* background: white;
+        box-shadow: 0 0 16px rgba(0,0,0,0.1); */
+        border-radius: 4px;
+        /* padding: 24px;
+        margin: 8px; */
+        flex-grow: 1;
+  }
+
+  #contato h1{
+      font-size: 50px;
+      font-family: 'Dancing Script', cursive;
+      font-weight: bold;
+  }
+
+  .card-white h3{
+      margin-top: 90px;
+      font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+  }
+  .card-white h2{
+      margin-top: -60px;
+      font-family: 'Arimo', sans-serif;
+    font-size: 30px;
+  }
+  .card-white p{
+     
+      font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+  }
+
+  #contato .card-white-meio {
+    /* background: white;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1); */
+    border-radius: 4px;
+    padding: 4px;
+    margin: 1px;
+    width: 100px;
+    flex-grow: 1;
+}
+
+  #contato .form-img{
+      width: 500px;
+  }
+
+  input[type="text"]{
+      width: 400px;
+      padding: 20px 0;
+      border-radius: 8px;
+      border: none;
+      border: 1px solid rgb(247, 220, 146);
+      background: rgb(247, 220, 146);
+  }
+  input[type="email"]{
+      width: 400px;
+      padding: 20px 0;
+      border-radius: 8px;
+      border: none;
+      border: 1px solid rgb(247, 220, 146);
+      background: rgb(247, 220, 146);
+  }
+  input[type="tel"]{
+      width: 400px;
+      padding: 20px 0;
+       border-radius: 8px;
+      border: none;
+      border: 1px solid rgb(247, 220, 146);
+      background: rgb(247, 220, 146);
+  }
+
+  #contato .t-area{
+    border: 1px solid rgb(247, 220, 146);
+    background: rgb(247, 220, 146);
+  }
+
+  #contato ::placeholder{
+      color: black;
+      font-family: 'Dancing Script', cursive;
+      font-size: 18px;
+      font-weight: bold;
+  }
+
+  /* footer */
+  #footer{
+    font-family: 'Arimo', sans-serif;
+      margin-top: 10%;
+    background: rgb(223, 165, 6);
+    padding: 10px 0;
+  }
+
+  #footer a{
+      text-decoration: none;
+      color: black;
+  }
+
+
+
+
+@media (max-width:991px){
+    header{
+        padding: 0 20px;
+    }
+
+    .menu-toggle{
+        display: block;
+    }
+
+    header nav{
+        /* display: none; */
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 50px);
+        background: #333;
+        top: 50px;
+        left: -100%;
+        transition: 0.5s;
+    }
+
+    header nav.active{
+        left: 0;
+    }
+
+    header nav ul{
+        display: block;
+        text-align: center;
+    }
+
+    header nav ul li a{
+        border-bottom: 1px solid rgba(0,0,0,.2);
+    }
+
+    /* inicio */
+    #inicio h1{
+        margin-top: -331px;
+    }
+    margin-top: -191px;
+    /* sobre */
+    #inicio{
+        margin-top: 4%;
+        height: 30vh;
+    }
+    
+   
+    .box-center{
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #contato .cards {
+        margin-left: -0%;
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-gap: 16px;
+   }
+}
+ 
